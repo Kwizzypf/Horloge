@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
     // tout ce que vous voulez ici
-    setInterval(setClockDigital, 1000);
-    setInterval(setClock, 1000);
+   
 
 });
 
-
-
+setInterval(setClockDigital, 1000);
+setClock();
+setInterval(setClock, 1000);
 
 function setClockDigital()
 {   
