@@ -5,6 +5,7 @@ $(document).ready(function () {
 
 });
 
+setClockDigital();
 setInterval(setClockDigital, 1000);
 setClock();
 setInterval(setClock, 1000);
