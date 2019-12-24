@@ -1,8 +1,16 @@
 body
 {
-    background-color: tomato;
+    background-color: greenyellow;
+    background-image: url("../img/zoro2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
 }
 
+.size
+{
+    width: 150px;
+}
 
 .bg-black
 {
@@ -15,7 +23,11 @@ body
     width: 300px;
     height: 300px;
     position: relative;
-    
+    background-image: url("../img/zoro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    opacity: 0.8;
 }
 
 .centre
@@ -39,7 +51,7 @@ body
 
 .hourTick
 {
-    background-color: black;
+    background-color: greenyellow;
     position: absolute;
     border-radius: 5px;
     transform-origin: bottom center;
@@ -53,7 +65,7 @@ body
 .minuteTick{
     width: 5px;
     height: 120px;
-    background-color: #000;
+    background-color:yellow;
     transform-origin: bottom center;
     border-radius: 4px;
     position: absolute;
